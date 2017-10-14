@@ -1,0 +1,142 @@
+/*  Portfolio Template Styles */
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin: 10px 9%;
+}
+
+header img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    width: 100%;
+}
+
+header h1 {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+}
+
+header h4 {
+    clear: right;
+    margin: 0;
+    font-size: 25px;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    height: 2px;
+    background-color: #333;
+    color: #333;
+}
+
+#mainImage {
+    width: 100%;
+    height: 38vw;
+    margin-top: 10px;
+}
+
+#mainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.featuredWork {
+    width: 25%;
+    border: 1px solid #333;
+    overflow: auto;
+    font-size: 16px;
+    min-width: 200px;
+}
+
+figure img {
+    width: 100%;
+    border-bottom: 1px solid #333
+}
+
+figcaption {
+    margin: 5px;
+}
+
+figure h3 {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+#copyright {
+    display: inline;
+    width: 10%;
+}
+
+#createdBy {
+    display: inline-block;
+    margin-left: 37%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+@media screen and (max-width: 800px) {
+    header img {
+        height: 75px;
+        width: 75px;
+    }
+    
+    header h1 {
+        font-size: 30px;
+    }
+    
+    header h4 {
+        font-size: 15px
+    }
+    
+    .featuredWork {
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
